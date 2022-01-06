@@ -1,4 +1,124 @@
 body{
   margin: 0;
-  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*-------- FIRST SECTION --------*/
+
+h1{
+  font-size: 40px;
+}
+.text-color{
+  color: #0A80D2;
+}
+.text-down{
+  margin-top: -5%;
+}
+.btn-color{
+  text-decoration: none;
+  padding: 8px 25px;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #0585CE, #4C50FA);
+  color: white;
+}
+.first-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.half-width{
+  width: 40%;
+  margin-left: 9%;
+}
+.half-width img{
+  width: 400px;
+}
+#line-bar{
+  border-left: 7px solid #4C50FA;
+  border-image-slice: 1;
+  padding-left: 10px;
+  height: 115px;
+}
+
+/*-------- SECOND SECTION --------*/
+
+.second-section{
+  text-align: center;
+  margin-top: -25px;
+}
+.box{
+  width: 320px;
+  height: 350px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.box img{
+  width: 45%;
+  padding-right: 70%;
+}
+.all-box{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 70px;
+}
+.text-manage{
+  padding-left: 4%;
+  padding-right: 1%;
+  text-align: left;
+}
+#background-color-first-box{
+  background: #EDF5F6;
+}
+#background-color-second-box{
+  background: #FFEEEE;
+}
+#background-color-third-box{
+  background: #FFF4D6;
+}
+.top-banner{
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+}
+
+
+/*-------- THIRD and FOURTH SECTION --------*/
+
+.third-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.new-half-width{
+  width: 40%;
+  margin-left: 9%;
+}
+.new-half-width img{
+  width: 400px;
+}
+.left-side-text{
+  position: relative;
+  left: -35%;
+  padding-bottom: 50px;
+}
+
+
+/*-------- FOOTER SECTION --------*/
+
+#year-color{
+  color: #0A80D2;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+footer p{
+  height: 10%;
 }
